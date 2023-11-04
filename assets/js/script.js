@@ -112,7 +112,7 @@ $("#contact-form").submit(function(e) {
     var form = $(this);
     $.ajax({
         url: "assets/contact/contact.php",
-        method: "get",
+        method: "POST",
         data: form.serialize(),
         success: function(result){
             if (result == "The email massage was sent.") {
