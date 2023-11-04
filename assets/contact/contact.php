@@ -10,7 +10,7 @@
    $mail->SMTPAuth = true;
    $mail->Username = 'hafizasadrafique@gmail.com';
    $mail->Password = 'wkvaysiiydxdtdvs';
-   extract($_POST);
+   extract($_GET);
    $mail->setFrom('hafizasadrafique@gmail.com', "");
     $mail->addAddress('fursaprojects@gmail.com', 'Fursaprojects');
    $mail->isHTML(true);   
