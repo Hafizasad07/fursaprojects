@@ -3,6 +3,7 @@
 *{
     font-family: 'Barlow', sans-serif;
 }
+
 body{
     margin: 0;
     padding: 0;
@@ -191,9 +192,12 @@ body{
     background-image: url(../images/section3-bg.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding-top: 30px;
     margin-top: 40px;
     padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1100px;
 }
 
 .section3-text1{
@@ -491,6 +495,7 @@ body{
     position: absolute;
     left: 38px;
     top: 10px;
+    width: 327px !important;
 }
 
 .section10{
@@ -943,6 +948,10 @@ body{
     }
 
     .section3-div{
+        background-size: 100% 100%;
+    }
+
+    .section3{
         background-size: 100% 100%;
     }
 
